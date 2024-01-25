@@ -1,0 +1,22 @@
+apiVersion: v1
+class: Schema
+kind: Resource
+metadata:
+    name: preferences.merchants
+    description: Postgres Schema merchants in preferences database
+    labels: {}
+    annotations: {}
+    tier: ""
+    contact: ""
+contact:
+    owner: null
+dependencies:
+    upstream: []
+    downstream: []
+    providedBy: postgres.pg-2
+classification:
+    tag: []
+    domain: ""
+    team: ""
+    capability: ""
+properties: {}
