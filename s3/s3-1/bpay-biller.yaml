@@ -1,0 +1,26 @@
+apiVersion: v1
+class: Bucket
+kind: Resource
+metadata:
+    name: bpay-biller
+    description: S3 Bucket bpay-biller in s3.s3-1 database
+    labels: {}
+    annotations:
+        lifecycle.ops.catalog/created: 2024-01-07 13:17:11 +0000 UTC
+    tier: ""
+    contact: ""
+contact:
+    owner: null
+dependencies:
+    upstream: []
+    downstream: []
+    providedBy: s3.s3-1
+classification:
+    tag: []
+    domain: payment
+    team: paypaynow
+    capability: onlinebanking
+properties: {}
+includes:
+    - internal
+    - data-stuff
