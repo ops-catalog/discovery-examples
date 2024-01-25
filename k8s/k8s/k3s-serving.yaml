@@ -1,0 +1,23 @@
+apiVersion: v1
+class: Certificate
+kind: Resource
+metadata:
+    name: k3s-serving
+    description: Tls Certificate http://k8s-read.ops-catalog.io:80
+    labels: {}
+    annotations: {}
+    tier: ""
+    contact: ""
+contact:
+    owner: null
+dependencies:
+    upstream: []
+    downstream: []
+classification:
+    tag: []
+    domain: platform
+    team: devops
+    capability: operations
+properties: {}
+includes:
+    - internal
