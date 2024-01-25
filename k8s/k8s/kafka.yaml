@@ -1,0 +1,27 @@
+apiVersion: v1
+class: App
+kind: Component
+metadata:
+    name: kafka
+    description: statefulset type found in k8s.k8s
+    labels: {}
+    annotations:
+        discovery.ops.catalog/deploymentType: statefulset
+        discovery.ops.catalog/image: bitnami/kafka:3.4.1-debian-11-r117
+        discovery.ops.catalog/namespace: default
+        discovery.ops.catalog/replicas: "1"
+    tier: ""
+    contact: ""
+contact:
+    owner: null
+dependencies:
+    upstream: []
+    downstream: []
+classification:
+    tag: []
+    domain: platform
+    team: devops
+    capability: operations
+properties: {}
+includes:
+    - internal
