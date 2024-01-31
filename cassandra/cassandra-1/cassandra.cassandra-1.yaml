@@ -15,9 +15,9 @@ dependencies:
     downstream: []
 classification:
     tag: []
-    domain: storage
-    team: datahoarders
-    capability: dataretention
+    domain: onboarding
+    team: account
+    capability: onboarding
 properties: {}
 includes:
     - internal

@@ -1,0 +1,27 @@
+apiVersion: v1
+class: Keyspace
+kind: Resource
+metadata:
+    name: faq
+    description: Cassandra Keyspace for tables in faq
+    labels: {}
+    annotations:
+        discovery.ops.catalog/replication: |
+            {"class":"org.apache.cassandra.locator.SimpleStrategy","replication_factor":"1"}
+    tier: ""
+    contact: ""
+contact:
+    owner: null
+dependencies:
+    upstream: []
+    downstream: []
+    providedBy: cassandra.cassandra-1
+classification:
+    tag: []
+    domain: onboarding
+    team: account
+    capability: onboarding
+properties: {}
+includes:
+    - onboarding-stuff
+    - internal
