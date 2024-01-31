@@ -1,0 +1,27 @@
+apiVersion: v1
+class: Database
+kind: Store
+metadata:
+    name: postgres.pg-1
+    description: Postgres database servicing available at postgres.ops-catalog.io
+    labels: {}
+    annotations: {}
+    tier: ""
+    contact: ""
+contact:
+    owner: null
+dependencies:
+    upstream: []
+    downstream: []
+classification:
+    tag: []
+    domain: storage
+    team: datahoarders
+    capability: dataretention
+properties: {}
+includes:
+    - internal
+runtime:
+    endpoint:
+        - intent: address
+          location: postgres.ops-catalog.io
