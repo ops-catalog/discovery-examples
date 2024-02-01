@@ -3,7 +3,7 @@ class: HttpRoute
 kind: Endpoint
 metadata:
     name: airflow-http
-    description: Http Route in Kubernetes Cluster http://k8s-read.ops-catalog.io:80
+    description: Http Route in Kubernetes Cluster http://localhost:8070
     labels: {}
     annotations: {}
     tier: ""
@@ -28,4 +28,4 @@ runtime:
           location: airflow.ops-catalog.io
 links:
     - type: definition
-      url: http://k8s-read.ops-catalog.io:80/api/crd-instance?resource-group=gateway.networking.k8s.io&resource-type=httproutes&resource-version=v1beta1&namespace=default&resource-name=airflow-http
+      url: http://localhost:8070/api/crd-instance?resource-group=gateway.networking.k8s.io&resource-type=httproutes&resource-version=v1beta1&namespace=default&resource-name=airflow-http

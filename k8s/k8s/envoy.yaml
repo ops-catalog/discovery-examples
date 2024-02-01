@@ -3,7 +3,7 @@ class: Certificate
 kind: Resource
 metadata:
     name: envoy
-    description: Tls Certificate http://k8s-read.ops-catalog.io:80
+    description: Tls Certificate http://localhost:8070
     labels: {}
     annotations: {}
     tier: ""

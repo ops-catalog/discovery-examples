@@ -15,8 +15,8 @@ dependencies:
     downstream: []
 classification:
     tag: []
-    domain: jobs
-    team: dataplatform
+    domain: data-platform
+    team: data-platform
     capability: jobs
 properties: {}
 includes:
