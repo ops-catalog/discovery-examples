@@ -1,5 +1,6 @@
 git clean -df
 git pull origin main
+git rm -r git
 git rm -r cassandra
 git rm -r postgres
 git rm -r kafka
