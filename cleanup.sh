@@ -1,12 +1,12 @@
 git clean -df
 git pull origin main
-git rm -r git
-git rm -r cassandra
-git rm -r postgres
-git rm -r kafka
-git rm -r s3
-git rm -r k8s
-git rm -r airflow
+git rm -r git || true
+git rm -r cassandra || true
+git rm -r postgres || true
+git rm -r kafka || true
+git rm -r s3 || true
+git rm -r k8s || true
+git rm -r airflow || true
 git commit -m"cleanup"
 git push origin main
 
