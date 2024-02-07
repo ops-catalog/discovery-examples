@@ -1,3 +1,4 @@
+git clean -df
 git pull origin main
 git rm -r cassandra
 git rm -r postgres
