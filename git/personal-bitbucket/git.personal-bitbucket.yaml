@@ -1,0 +1,27 @@
+apiVersion: v1
+class: GitServer
+kind: Store
+metadata:
+    name: git.personal-bitbucket
+    description: Git server personal-bitbucket available at http://bitbucket:7990
+    labels: {}
+    annotations: {}
+    tier: ""
+    contact: ""
+contact:
+    owner: null
+dependencies:
+    upstream: []
+    downstream: []
+classification:
+    tag: []
+    domain: platform
+    team: devexp
+    capability: operations
+properties: {}
+includes:
+    - internal
+runtime:
+    endpoint:
+        - intent: address
+          location: http://bitbucket:7990

@@ -1,0 +1,26 @@
+apiVersion: v1
+class: Repository
+kind: Resource
+metadata:
+    name: llm-playground
+    description: LLM Snippets
+    labels: {}
+    annotations:
+        discovery.ops.catalog/visibility: public
+    tier: ""
+    contact: ""
+contact:
+    owner: null
+dependencies:
+    upstream: []
+    downstream: []
+    providedBy: git.personal-github
+classification:
+    tag: []
+    domain: ml
+    team: data
+    capability: analytics
+properties: {}
+includes:
+    - data-stuff
+    - internal
