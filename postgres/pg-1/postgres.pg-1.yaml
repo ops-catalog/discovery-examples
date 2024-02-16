@@ -15,9 +15,9 @@ dependencies:
     downstream: []
 classification:
     tag: []
-    domain: servicing
-    team: crm
-    capability: client experience
+    domain: storage
+    team: datahoarders
+    capability: dataretention
 properties: {}
 includes:
     - internal
